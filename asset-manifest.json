@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/PORTFOLIO/static/js/main.4ed650db.chunk.js",
+    "main.js.map": "/PORTFOLIO/static/js/main.4ed650db.chunk.js.map",
+    "runtime-main.js": "/PORTFOLIO/static/js/runtime-main.99e002e8.js",
+    "runtime-main.js.map": "/PORTFOLIO/static/js/runtime-main.99e002e8.js.map",
+    "static/css/2.533d620f.chunk.css": "/PORTFOLIO/static/css/2.533d620f.chunk.css",
+    "static/js/2.aede2c22.chunk.js": "/PORTFOLIO/static/js/2.aede2c22.chunk.js",
+    "static/js/2.aede2c22.chunk.js.map": "/PORTFOLIO/static/js/2.aede2c22.chunk.js.map",
+    "index.html": "/PORTFOLIO/index.html",
+    "precache-manifest.3c32fe60040934c42397f5858bbbe8fc.js": "/PORTFOLIO/precache-manifest.3c32fe60040934c42397f5858bbbe8fc.js",
+    "service-worker.js": "/PORTFOLIO/service-worker.js",
+    "static/css/2.533d620f.chunk.css.map": "/PORTFOLIO/static/css/2.533d620f.chunk.css.map",
+    "static/media/BMI.png": "/PORTFOLIO/static/media/BMI.22f236c4.png",
+    "static/media/CountriesList.png": "/PORTFOLIO/static/media/CountriesList.d7cbb922.png",
+    "static/media/Mui.png": "/PORTFOLIO/static/media/Mui.fbca1e73.png",
+    "static/media/MuiForm.png": "/PORTFOLIO/static/media/MuiForm.8b101092.png",
+    "static/media/ReactReduxFirebase.png": "/PORTFOLIO/static/media/ReactReduxFirebase.26fe99dd.png",
+    "static/media/colorG.png": "/PORTFOLIO/static/media/colorG.69e78e50.png",
+    "static/media/crudExpress.png": "/PORTFOLIO/static/media/crudExpress.f7c31b2d.png",
+    "static/media/mina.jpg": "/PORTFOLIO/static/media/mina.9d1b0d92.jpg",
+    "static/media/myBG2.jpg": "/PORTFOLIO/static/media/myBG2.ed53589a.jpg",
+    "static/media/myLogo2.png": "/PORTFOLIO/static/media/myLogo2.f870239e.png",
+    "static/media/testify.png": "/PORTFOLIO/static/media/testify.4e7cf9bb.png"
+  }
+}
