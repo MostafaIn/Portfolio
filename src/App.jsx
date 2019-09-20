@@ -29,10 +29,10 @@ const App = () => {
                 <CssBaseline />
                 <NavBar />
                 <Switch>
-                    <Route path="/" component={Home} exact />
-                    <Route path="/projects" component={Projects} />
-                    <Route path="/about" component={About} />
-                    <Route path="/contact" component={Contact} />
+                    <Route path="/mostafain.github.io/" component={Home} exact />
+                    <Route path="/mostafain.github.io/projects" component={Projects} />
+                    <Route path="/mostafain.github.io/about" component={About} />
+                    <Route path="/mostafain.github.io/contact" component={Contact} />
                 </Switch>
             </Router>
         </div>
