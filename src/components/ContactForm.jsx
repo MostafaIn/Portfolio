@@ -30,7 +30,7 @@ const styles = theme => ({
 const nameRegex = RegExp(/^[a-zA-Z\s]{3,15}$/);
 const emailRegex = RegExp(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/);
 const phoneRegex = RegExp(/^([0][4|5][0-9]{1})[-\s]?([0-9]{3}[-\s]?[0-9]{4})$/);
-const msgRegex = RegExp(/^[a-zA-Z0-9\s.]{3,150}$/);
+const msgRegex = RegExp(/^[a-zA-Z0-9\s.]{3,250}$/);
 
 
 
@@ -108,7 +108,7 @@ class ContactForm extends Component {
                     variant="filled"
                     fullWidth
                 />
-                {formErrors.name === false ? <Typography variant="caption" color="error">more than 3 letters valid! *</Typography> : null}
+                {formErrors.name === false ? <Typography variant="caption" color="error">between 3 to 15 letters are valid! *</Typography> : null}
                 <TextField
                     label="Your Email ID"
                     className={classes.textField}
@@ -148,7 +148,7 @@ class ContactForm extends Component {
                     variant="filled"
                     fullWidth
                 />
-                {formErrors.message === false ? <Typography variant="caption" color="error">between 3 to 150 characters valid!</Typography> : null}
+                {formErrors.message === false ? <Typography variant="caption" color="error">between 3 to 250 characters valid!</Typography> : null}
                 <Button type="submit" value="Send" onClick={this.handleSubmit} disabled={!formErrors.name || !formErrors.email || !formErrors.message} variant="contained" color="secondary" fullWidth className={classes.button}>
                     Send
                     <SendIcon className={classes.rightIcon} />
