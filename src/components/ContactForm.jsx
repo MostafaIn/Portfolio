@@ -28,7 +28,7 @@ const styles = theme => ({
 });
 
 const nameRegex = RegExp(/^[a-zA-Z\s]{3,15}$/);
-const emailRegex = RegExp(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/);
+const emailRegex = RegExp(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\w{2,3})+$/);
 const phoneRegex = RegExp(/^([0][4|5][0-9]{1})[-\s]?([0-9]{3}[-\s]?[0-9]{4})$/);
 const msgRegex = RegExp(/^[a-zA-Z0-9\s.]{3,250}$/);
 

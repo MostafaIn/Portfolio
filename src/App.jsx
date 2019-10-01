@@ -10,6 +10,7 @@ import Projects from './components/Projects';
 import myBG from './Images/mina.jpg'
 import myBG2 from './Images/myBG2.jpg'
 
+
 const useStyles = makeStyles(theme => ({
     root: {
         flexGrow: 1,
