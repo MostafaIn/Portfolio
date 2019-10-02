@@ -5,7 +5,7 @@ import ContactDetails from './ContactDetails';
 
 const styles = theme => ({
     root: {
-        height: '85vh',
+        height: '86vh',
         display: 'flex',
         flexWrap: 'wrap',
         justifyContent: 'space-around',
