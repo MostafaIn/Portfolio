@@ -12,6 +12,9 @@ const useStyles = makeStyles(theme => ({
     root: {
         width: '50%',
         marginBottom: theme.spacing(4),
+        [theme.breakpoints.down('sm')]: {
+            width: '65%',
+        },
     },
     avatar: {
         marginTop: 110,

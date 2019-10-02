@@ -10,7 +10,7 @@ Project is created with:
 
 ## DEMO
 
-[PORTFOLIO](https://MostafaIn.github.io/PORTFOLIO)
+[PORTFOLIO](https://mostafaIn.github.io/PORTFOLIO/)
 
 ## Screenshot
 
