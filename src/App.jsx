@@ -1,6 +1,6 @@
 import React from 'react';
 import { CssBaseline, makeStyles } from '@material-ui/core'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter, Route, Switch } from 'react-router-dom'
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import About from './components/About';
@@ -26,8 +26,8 @@ const App = () => {
     const classes = useStyles();
     return (
         <div className={classes.root}>
-            <Router>
-                <CssBaseline />
+            <CssBaseline />
+            <HashRouter>
                 <NavBar />
                 <Switch>
                     <Route path="/" component={Home} exact />
@@ -35,7 +35,7 @@ const App = () => {
                     <Route path="/about" component={About} />
                     <Route path="/contact" component={Contact} />
                 </Switch>
-            </Router>
+            </HashRouter>
         </div>
     );
 }

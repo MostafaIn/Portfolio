@@ -10,14 +10,14 @@ const useStyles = makeStyles(theme => ({
     root: {
         flexGrow: 1,
         height: '87vh',
+        // paddingBottom: theme.spacing(5),
     },
     paper: {
         maxWidth: '45%',
         background: 'none',
-        position: 'fixed',
         padding: theme.spacing(3, 2),
-        marginTop: theme.spacing(10),
-        marginLeft: theme.spacing(10),
+        // margin: theme.spacing(10),
+        margin: theme.spacing(10),
         [theme.breakpoints.down('sm')]: {
             margin: theme.spacing(7)
         },
@@ -25,7 +25,7 @@ const useStyles = makeStyles(theme => ({
     button: {
         margin: theme.spacing(2, 0),
         fontFamily: 'copperplate',
-        fontSize: 'calc(0.5vw + 6px)'
+        fontSize: 'calc(0.4vw + 5px)'
     }
 }))
 
