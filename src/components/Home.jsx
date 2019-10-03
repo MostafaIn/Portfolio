@@ -9,16 +9,17 @@ import { Link } from 'react-router-dom'
 const useStyles = makeStyles(theme => ({
     root: {
         flexGrow: 1,
-        height: '87vh',
+        height: '90vh',
     },
     paper: {
         maxWidth: '45%',
         background: 'none',
         padding: theme.spacing(3, 2),
-        // margin: theme.spacing(10),
+        position: 'fixed',
         margin: theme.spacing(10),
         [theme.breakpoints.down('sm')]: {
-            margin: theme.spacing(7)
+            margin: theme.spacing(5, 3),
+            maxWidth: '60%',
         },
     },
     button: {

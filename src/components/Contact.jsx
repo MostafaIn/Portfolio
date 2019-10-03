@@ -5,12 +5,12 @@ import ContactDetails from './ContactDetails';
 
 const styles = theme => ({
     root: {
-        height: '87vh',
+        height: '90vh',
         display: 'flex',
         flexWrap: 'wrap',
         justifyContent: 'space-around',
         alignItems: 'flex-end',
-        padding: theme.spacing(2, 0, 10),
+        paddingBottom: theme.spacing(20),
         [theme.breakpoints.down('sm')]: {
             justifyContent: 'flex-start',
             marginLeft: theme.spacing(4)

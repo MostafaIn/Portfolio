@@ -4,9 +4,10 @@ import { AppBar, Toolbar, IconButton, CssBaseline, Divider, Drawer, Tabs, Tab, B
 import { Menu, Home, LaptopMac, Info, Contacts } from '@material-ui/icons'
 import { makeStyles, useTheme } from '@material-ui/core/styles'
 import { Link } from 'react-router-dom'
+// import Projects from './Projects';
 import myLogo from '../Images/myLogo2.png'
 
-const drawerWidth = 200;
+const drawerWidth = 160;
 
 const useStyles = makeStyles(theme => ({
     logo: {
