@@ -4,7 +4,7 @@
 ## Technologies
 
 Project is created with:
-* React.js
+* ReactJS
 * material-ui
 
 
