@@ -10,7 +10,7 @@ Project is created with:
 
 ## DEMO
 
-[PORTFOLIO](https://mostafaportfolio.herokuapp.com/)
+[PORTFOLIO]
 
 ## Screenshot
 
