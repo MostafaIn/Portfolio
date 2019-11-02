@@ -19,7 +19,7 @@ code {
 	z-index: 0;
 }
 .title p:nth-child(1) {
-	width: 11em;
+	width: 10em;
 	-webkit-animation: type 3s steps(40, end);
 	animation: type 3s steps(40, end);
 	-webkit-animation-fill-mode: forwards;
@@ -27,7 +27,7 @@ code {
 }
 
 .title p:nth-child(2) {
-	width: 10em;
+	width: 8.7em;
 	opacity: 0;
 	-webkit-animation: type2 3s steps(40, end);
 	animation: type2 3s steps(40, end);
