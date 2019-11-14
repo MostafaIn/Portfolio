@@ -16,6 +16,7 @@ const styles = (theme) => ({
 		paddingTop: theme.spacing(15),
 		[theme.breakpoints.down('sm')]: {
 			justifyContent: 'flex-start',
+			paddingTop: theme.spacing(10),
 			paddingLeft: theme.spacing(4),
 		},
 	},

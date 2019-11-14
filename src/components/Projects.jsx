@@ -4,16 +4,18 @@ import { MyProjects } from '../MyProjects';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
-		height: '350vh',
-		minWidth: '100%',
-		background: 'none',
+		background: '#aaa',
+		height: '360vh',
+		maxWidth: '100%',
 		position: 'relative',
 		padding: theme.spacing(15, 0),
-		[theme.breakpoints.down('sm')]: {
-			height: '450vh',
-		},
-		[theme.breakpoints.up('sm')]: {
+		[theme.breakpoints.only('sm')]: {
 			height: '300vh',
+			padding: theme.spacing(10, 0),
+		},
+		[theme.breakpoints.only('xs')]: {
+			height: '500vh',
+			padding: theme.spacing(10, 0),
 		},
 	},
 
@@ -21,8 +23,7 @@ const useStyles = makeStyles((theme) => ({
 		maxWidth: 650,
 		background: 'none',
 		padding: theme.spacing(2),
-		marginTop: theme.spacing(10),
-		marginLeft: theme.spacing(10),
+		margin: theme.spacing(10),
 		[theme.breakpoints.down('sm')]: {
 			margin: theme.spacing(3),
 		},

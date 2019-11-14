@@ -14,12 +14,17 @@ import 'react-sweet-progress/lib/style.css';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
+		background: '#add',
 		height: '150vh',
 		minWidth: '100%',
 		position: 'relative',
 		display: 'flex',
 		flexDirection: 'column',
 		padding: theme.spacing(15, 0),
+		[theme.breakpoints.down('sm')]:{
+			height: '130vh',
+			padding: theme.spacing(10, 0),
+		}
 	},
 	bio: {
 		boxSizing: 'border-box',

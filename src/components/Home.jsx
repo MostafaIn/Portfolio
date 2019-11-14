@@ -7,7 +7,7 @@ import '../index.css';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
-		height: '100vh',
+		height: '90vh',
 		minWidth: '100%',
 		position: 'relative',
 		paddingTop: theme.spacing(5),
