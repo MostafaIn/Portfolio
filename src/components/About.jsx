@@ -14,7 +14,6 @@ import 'react-sweet-progress/lib/style.css';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
-		background: '#add',
 		height: '150vh',
 		minWidth: '100%',
 		position: 'relative',

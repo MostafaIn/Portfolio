@@ -4,7 +4,6 @@ import { MyProjects } from '../MyProjects';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
-		background: '#aaa',
 		height: '360vh',
 		maxWidth: '100%',
 		position: 'relative',
