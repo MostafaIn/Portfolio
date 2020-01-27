@@ -75,7 +75,7 @@ const About = () => {
 					technologies.
 					<br />
 					my specialty is front-end web design and development, my updated skills are javascript with new
-					features, a good understanding of reactJS and some more ...
+					features, a good understanding of ReactJS / React Native and MERN stack and always ready to learn day by day ... 
 				</Typography>
 			</Paper>
 			<Paper elevation={0} className={classes.bio}>
