@@ -38,7 +38,7 @@ code {
 }
 
 .title p:nth-child(3) {
-	width: 24em;
+	width: 23em;
 	opacity: 0;
 	-webkit-animation: type3 5s steps(40, end);
 	animation: type3 5s steps(40, end);
