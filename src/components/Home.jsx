@@ -44,7 +44,7 @@ const Home = () => {
 				<div className="title">
 					<Typography component="p">Hi,my name is Mostafa,</Typography>
 					<Typography component="p">I'm a web developer,</Typography>
-					<Typography component="p">focus on JavaScript and React with material UI.</Typography>
+					<Typography component="p">focus on JavaScript with React JS and React Native.</Typography>
 				</div>
 				<animated.div style={myFade}>
 					<Button variant="contained" color="secondary" href="#contact" className={classes.button}>
