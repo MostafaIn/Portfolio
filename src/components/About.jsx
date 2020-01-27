@@ -94,12 +94,12 @@ const About = () => {
 					<Grid item xs={4} sm={3} className={classes.skill}>
 						<JavascriptIcon />
 						<Typography style={{ fontSize: 'calc(.7vw + 7px)' }}>ES6+</Typography>
-						<Progress percent={75} type="circle" width={60} symbolClassName={classes.progress} />
+						<Progress percent={85} type="circle" width={60} symbolClassName={classes.progress} />
 					</Grid>
 					<Grid item xs={4} sm={3} className={classes.skill}>
 						<ReactjsIcon />
-						<Typography style={{ fontSize: 'calc(.7vw + 7px)' }}>React JS</Typography>
-						<Progress percent={60} type="circle" width={60} symbolClassName={classes.progress} />
+						<Typography style={{ fontSize: 'calc(.7vw + 7px)' }}>ReactJS / React Native</Typography>
+						<Progress percent={70} type="circle" width={60} symbolClassName={classes.progress} />
 					</Grid>
 					<Grid item xs={4} sm={3} className={classes.skill}>
 						<MaterialuiIcon />
@@ -114,7 +114,7 @@ const About = () => {
 					<Grid item xs={4} sm={3} className={classes.skill}>
 						<FirebaseIcon />
 						<Typography style={{ fontSize: 'calc(.7vw + 7px)' }}>Firebase</Typography>
-						<Progress percent={15} type="circle" width={60} symbolClassName={classes.progress} />
+						<Progress percent={25} type="circle" width={60} symbolClassName={classes.progress} />
 					</Grid>
 					<Grid item xs={4} sm={3} className={classes.skill}>
 						<GraphqlIcon />
