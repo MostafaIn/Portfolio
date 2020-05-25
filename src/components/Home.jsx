@@ -38,6 +38,7 @@ const Home = () => {
 		opacity: 1,
 		config: { delay: 2000, duration: 22000 },
 	});
+
 	return (
 		<div className={classes.root} id="home">
 			<Paper className={classes.paper} elevation={0}>

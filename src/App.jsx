@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState, useEffect} from 'react';
 import { CssBaseline, makeStyles } from '@material-ui/core';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
@@ -23,10 +23,15 @@ const useStyles = makeStyles((theme) => ({
 
 const App = () => {
 	const classes = useStyles();
+	const [page, setPage] = useState(null)
+	useEffect(() => {
+		window.addEventListener('scroll',() => setPage(window.scrollY))
+	}, [])
+
 	return (
 		<div className={classes.root}>
 			<CssBaseline />
-			<NavBar />
+			<NavBar page={page} />
 			<Home />
 			<Projects />
 			<About />

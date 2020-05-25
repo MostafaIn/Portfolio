@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import { useSpring, animated } from 'react-spring';
 import {
 	AppBar,
@@ -16,14 +16,14 @@ import {
 } from '@material-ui/core';
 import { Menu, Home, LaptopMac, Info, Contacts } from '@material-ui/icons';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
-import myLogo from '../Images/myLogo2.png';
+import myLogo from '../Images/myLogo.png';
 
 const drawerWidth = 160;
 
 const useStyles = makeStyles((theme) => ({
 	logo: {
-		height: 60,
-		width: 180,
+		height: 45,
+		width: 160,
 		margin: theme.spacing(2, 10, 2, 0),
 	},
 	appBar: {
@@ -94,6 +94,19 @@ const NavBar = (props) => {
 	const theme = useTheme();
 	const [mobileOpen, setMobileOpen] = React.useState(false);
 	const [value, setValue] = React.useState(0);
+
+	// console.log(props.page)
+	useEffect(() => {
+		if(props.page < 570){
+			 setValue(0)
+		}else if(props.page < 3200){
+			setValue(1)
+		}else if(props.page < 4200){
+			setValue(2)
+		}else{
+			setValue(3)
+		}
+	},[props.page])
 
 	function handleChange(event, newValue) {
 		setValue(newValue);

@@ -61,7 +61,7 @@ const useStyles = makeStyles((theme) => ({
 
 const About = () => {
 	const classes = useStyles();
-
+	
 	return (
 		<div className={classes.root} id="about">
 			<CssBaseline />
@@ -74,8 +74,8 @@ const About = () => {
 					customers correctly. After graduating from Kardan university, I've been actively following web
 					technologies.
 					<br />
-					my specialty is front-end web design and development, my updated skills are javascript with new
-					features, a good understanding of ReactJS / React Native and MERN stack and always ready to learn day by day ... 
+					my speciality is web app design and development, my updated skills are vanilla javascript with new
+					features, a good understanding of ReactJS / React Native, NodeJS, Redux, MERN Stack and always ready to learn day by day ... 
 				</Typography>
 			</Paper>
 			<Paper elevation={0} className={classes.bio}>
@@ -99,27 +99,27 @@ const About = () => {
 					<Grid item xs={4} sm={3} className={classes.skill}>
 						<ReactjsIcon />
 						<Typography style={{ fontSize: 'calc(.7vw + 7px)' }}>ReactJS / React Native</Typography>
-						<Progress percent={70} type="circle" width={60} symbolClassName={classes.progress} />
+						<Progress percent={90} type="circle" width={60} symbolClassName={classes.progress} />
 					</Grid>
 					<Grid item xs={4} sm={3} className={classes.skill}>
 						<MaterialuiIcon />
 						<Typography style={{ fontSize: 'calc(.7vw + 7px)' }}>Material UI</Typography>
-						<Progress percent={70} type="circle" width={60} symbolClassName={classes.progress} />
+						<Progress percent={90} type="circle" width={60} symbolClassName={classes.progress} />
 					</Grid>
 					<Grid item xs={4} sm={3} className={classes.skill}>
 						<NodejsIcon />
 						<Typography style={{ fontSize: 'calc(.7vw + 7px)' }}>Node JS</Typography>
-						<Progress percent={40} type="circle" width={60} symbolClassName={classes.progress} />
+						<Progress percent={75} type="circle" width={60} symbolClassName={classes.progress} />
 					</Grid>
 					<Grid item xs={4} sm={3} className={classes.skill}>
 						<FirebaseIcon />
 						<Typography style={{ fontSize: 'calc(.7vw + 7px)' }}>Firebase</Typography>
-						<Progress percent={25} type="circle" width={60} symbolClassName={classes.progress} />
+						<Progress percent={65} type="circle" width={60} symbolClassName={classes.progress} />
 					</Grid>
 					<Grid item xs={4} sm={3} className={classes.skill}>
 						<GraphqlIcon />
 						<Typography style={{ fontSize: 'calc(.7vw + 7px)' }}>Graph QL</Typography>
-						<Progress percent={10} type="circle" width={60} symbolClassName={classes.progress} />
+						<Progress percent={45} type="circle" width={60} symbolClassName={classes.progress} />
 					</Grid>
 				</Grid>
 			</Paper>
